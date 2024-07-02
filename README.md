@@ -1,75 +1,32 @@
-# Nuxt 3 Minimal Starter
+# YouTube Downloader Frontend
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is the frontend application for a YouTube video downloader, built with Nuxt 3.
 
-## Setup
+The backend repository can be found here:
+https://github.com/divagueame/ytdownloader-backend
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# npm
-npm install
+- Download YouTube videos simultaneously
+- Automatically convert videos to MP3 format
+- User-friendly interface
 
-# pnpm
-pnpm install
+## Prerequisites
 
-# yarn
-yarn install
+- Docker
+- Docker Compose
 
-# bun
-bun install
-```
+## Getting Started
 
-## Development Server
+1. Clone the repository:
+   `git clone https://github.com/divagueame/ytdownloader-frontend.git
+cd ytdownloader-frontend`
+2. Start the application using Docker Compose:
 
-Start the development server on `http://localhost:3000`:
+`docker-compose up`
 
-```bash
-# npm
-npm run dev
+3. Access the application at `http://localhost:8080`
 
-# pnpm
-pnpm run dev
+## License
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This is an educational project. Everyone is free to use and modify this software without any warranty. The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
