@@ -3,7 +3,7 @@
 This is the frontend application for a YouTube video downloader, built with Nuxt 3.
 
 The backend repository can be found here:
-https://github.com/divagueame/ytdownloader-backend
+[ytdownloader-backend](https://github.com/divagueame/ytdownloader-backend)
 
 ## Features
 
