@@ -20,18 +20,24 @@ The backend repository can be found here:
 
 1. Clone the repository:
 
-`git clone https://github.com/divagueame/ytdownloader-frontend.git`
-`cd ytdownloader-frontend`
+```bash
+git clone https://github.com/divagueame/ytdownloader-frontend.git
+cd ytdownloader-frontend
+```
 
 2. Start the application using Docker Compose:
 
-`docker-compose up`
+```bash
+docker-compose up
+```
 
 3. Access the application at `http://localhost:8080`
 
 ## Docker image
 
-`docker pull martinarceteixeira/ytdownloader-frontend`
+```bash
+docker pull martinarceteixeira/ytdownloader-frontend
+```
 
 ## Screenshots
 
