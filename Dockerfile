@@ -1,5 +1,5 @@
 # Build stage
-FROM node:lts-alpine as build-stage
+FROM node:lts-alpine AS build-stage
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
@@ -7,7 +7,7 @@ COPY . .
 RUN npx nuxi generate
 
 # Production stage
-FROM nginx:stable-alpine as production-stage
+FROM nginx:stable-alpine AS production-stage
 COPY --from=build-stage /app/.output/public /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
 # COPY /etc/nginx/mime.types /etc/nginx/mime.types
